@@ -1,6 +1,6 @@
-import App from './../../App'
+import App from './../../App.js'
 import {html, render } from 'lit-html'
-import {gotoRoute, anchorRoute } from './../../Router'
+import {gotoRoute, anchorRoute } from './../../Router.js'
 import Auth from './../../Auth'
 import Utils from './../../Utils'
 import InterestAPI from '../../InterestAPI'

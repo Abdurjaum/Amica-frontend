@@ -1,10 +1,10 @@
-import App from '../../App'
+import App from '../../App.js'
 import {html, render } from 'lit-html'
-import {gotoRoute, anchorRoute} from '../../Router'
-import Auth from '../../Auth'
-import Utils from '../../Utils'
-import UserAPI from '../../UserAPI'
-import Toast from '../../Toast'
+import {gotoRoute, anchorRoute} from './../../Router.js'
+import Auth from '../../Auth.js'
+import Utils from '../../Utils.js'
+import UserAPI from '../../UserAPI.js'
+import Toast from '../../Toast.js'
 
 class GuideView {
   init(){

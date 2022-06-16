@@ -1,8 +1,8 @@
-import App from './../../App'
-import {html, render } from 'lit-html'
-import {anchorRoute, gotoRoute} from './../../Router'
-import Auth from './../../Auth'
-import Utils from './../../Utils'
+import App from './../../App.js'
+import {html, render } from 'lit-html.js'
+import {anchorRoute, gotoRoute} from './../../Router.js'
+import Auth from './../../Auth.js'
+import Utils from './../../Utils.js'
 
 class SignInView {
   init(){

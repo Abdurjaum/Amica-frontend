@@ -1,4 +1,4 @@
-import App from './../../App'
+import App from './../../App.js'
 import {html, render } from 'lit-html'
 
 class FourOFourView{

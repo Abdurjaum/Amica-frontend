@@ -1,7 +1,7 @@
 import { LitElement, html, css } from '@polymer/lit-element'
-import {anchorRoute, gotoRoute} from './../Router'
-import Auth from './../Auth'
-import App from './../App'
+import {anchorRoute, gotoRoute} from './../Router.js'
+import Auth from './../Auth.js'
+import App from './../App.js'
 
 customElements.define('va-app-header', class AppHeader extends LitElement {
   constructor(){

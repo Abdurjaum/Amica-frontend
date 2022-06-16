@@ -1,6 +1,6 @@
-import App from './App'
-import Auth from './Auth'
-import Toast from './Toast'
+import App from './App.js'
+import Auth from './Auth.js'
+import Toast from './Toast.js'
 
 class MessageAPI {
 

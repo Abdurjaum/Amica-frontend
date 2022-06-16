@@ -1,7 +1,7 @@
-import App from './../../App'
-import Auth from './../../Auth'
+import App from './../../App.js'
+import Auth from './../../Auth.js'
 import {html, render } from 'lit-html'
-import {anchorRoute, gotoRoute} from './../../Router'
+import {anchorRoute, gotoRoute} from './../../Router.js'
 import Utils from './../../Utils'
 
 class SignUpView{

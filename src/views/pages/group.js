@@ -1,10 +1,10 @@
 import App from '../../App'
 import {html, render } from 'lit-html'
-import {gotoRoute, anchorRoute} from '../../Router'
-import Auth from '../../Auth'
-import Utils from '../../Utils'
-import GroupAPI from '../../GroupAPI'
-import Toast from '../../Toast'
+import {gotoRoute, anchorRoute} from './../../Router.js'
+import Auth from '../../Auth.js'
+import Utils from '../../Utils.js'
+import GroupAPI from '../../GroupAPI.js'
+import Toast from '../../Toast.js'
 
 class GroupView {
   async init(){

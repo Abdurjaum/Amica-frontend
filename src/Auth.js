@@ -1,8 +1,8 @@
-import App from './App'
-import Router, { gotoRoute } from './Router'
-import splash from './views/partials/splash'
+import App from './App.js'
+import Router, { gotoRoute } from './Router.js'
+import splash from './views/partials/splash.js'
 import {html, render } from 'lit-html'
-import Toast from './Toast'
+import Toast from './Toast.js'
 
 class Auth {
 
